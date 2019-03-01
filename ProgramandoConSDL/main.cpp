@@ -1,15 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>;
-void my_print(const char* text);
-void main() {
+#include "../SDL/include/SDL.h"
+#pragma coment(lib, "../SDL/libx86/SDL2.lib");
+#pragma coment(lib, "../SDL/libx86/SDL2main.lib")
+int main() {
 
-	my_print("hello world3\n");
 	system("pause");
-}
-
-void my_print(const char* text) {
-
-	printf(text);
 }
 
 
