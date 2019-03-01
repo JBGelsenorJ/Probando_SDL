@@ -1,10 +1,15 @@
-#include<iostream>
-using namespace std;
-void main(){
+#include<stdio.h>
+#include<stdlib.h>;
+void my_print(const char* text);
+void main() {
 
-	cout << "Hello world" << endl;
+	my_print("hello world3\n");
 	system("pause");
 }
 
+void my_print(const char* text) {
+
+	printf(text);
+}
 
 
